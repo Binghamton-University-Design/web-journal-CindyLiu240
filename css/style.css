@@ -11,8 +11,6 @@ body {
 	font-family: 'Bebas Neue'; monospace ;
 	font-weight: 400;
 	background-color: var(background-color);
-
-
 }
 
 h1, h2, h3, h4, h5, {
@@ -21,20 +19,18 @@ h1, h2, h3, h4, h5, {
 }
 
 p {
-	font-family: 'fira sans condensed'; monospace ;
+	font-family: 'fira sans condensed'; 
 	margin-top: 1rem;
 	text-align: left;
 	font-size: 15px;
 	margin-bottom: 1rem;
 }
 
+
+
 .sides {
 	padding-left: 50px;
   padding-right: 50px;
-}
-
-. {
-  text-align: center;
 }
 
 h1, h2 {
@@ -111,9 +107,6 @@ h1, h2 {
   display: flex;
   align-items: center;
   height: 70vh;
-
-}
-
 }
 
 #intro-header {
@@ -152,6 +145,7 @@ h1, h2 {
   text-align: right;
 }
 
+}
 .work-item .inner .work-inside p:last-child {
   margin-bottom: 0;
 }
@@ -185,12 +179,19 @@ h1, h2 {
 
 .page-item .caption {
   font-size: .75rem;
+  font-weight: bold;
   color: #666666;
   display: block;
   width: 100%;
   margin-top: .5rem;
   margin-bottom: 2rem;
   text-align: right;
+}
+
+#project {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: var();
 }
 
 }
@@ -203,13 +204,13 @@ h1, h2 {
   background-color: var(--body-color);
 }
 
-.page-item h2 a {
+.page-item h2, h6 a {
   color: var(--body-color);
   text-decoration-color: transparent; 
   transition: text-decoration-color .3s ease-in-out;
 }
 
-.page-item h2 a:hover {
+.page-item h2, h6 a:hover {
   color: var(--body-color);
   text-decoration-color: var(--body-color); 
 }
